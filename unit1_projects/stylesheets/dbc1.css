@@ -1,1 +1,15 @@
-h1 {color: red;}
+body {
+	background-color: #F0F8FF;
+}
+
+h1 {
+	color: red;
+}
+
+p.bear {
+	font-size: 18px;
+}
+
+#google {
+	font:italic bold 12px/30px Georgia, serif;
+}
