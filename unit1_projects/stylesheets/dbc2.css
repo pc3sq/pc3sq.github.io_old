@@ -1,0 +1,67 @@
+body {
+	background-color: #F0F8FF;
+}
+
+h1 {
+	color: red;
+}
+
+a:hover {
+	font-size: 40px;
+}
+
+.clear {
+	clear: both;
+}
+
+div#wrapper {
+	max-width: 960px;
+	margin-left: auto;
+  margin-right: auto;
+
+}
+
+div#header {
+	float: left;
+}
+
+span#wave {
+	font-style: italic;
+}
+
+div#sidebar {
+	float: left;
+	background-color: #E6E6FF;
+	padding: 10px;
+	max-width: 100px;
+}
+
+
+
+div#content {
+	float: right;
+	position: relative;
+	padding: 2px;
+	max-width: 836px;
+
+}
+
+img#wave {
+	height: 250px;
+	width: 370px;
+}
+
+.intro {
+	position: absolute;
+	bottom: 0px;
+
+}
+
+
+div#footer {
+	float: left;
+}
+
+a#googlelink {
+	color: green;
+}
