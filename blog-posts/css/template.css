@@ -1,0 +1,90 @@
+body {
+	background-color: #F0F8FF;
+	font-family: helvetica;
+
+}
+
+h1 {
+	color: black;
+	text-decoration: italic;
+}
+
+a {
+	text-decoration: none;
+	font-family: helvetica;
+	font-size: 14px;
+}
+
+a:hover {
+	font-size: 20px;
+	color: red;
+	text-decoration: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+div.wrapper {
+	max-width: 960px;
+	margin-left: auto;
+  margin-right: auto;
+
+}
+
+div.header {
+	text-align:center;
+	max-width: 500px;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+span#wave {
+	font-style: italic;
+}
+
+div.entries {
+
+	text-align: center;
+	max-width: 400px;
+	margin-left: auto;
+  margin-right: auto;
+
+}
+
+div.entries a {
+	color:green;
+}
+
+
+div.content {
+	font-style: italic;
+	max-width: 600px;
+	text-align: center;
+	position: relative;
+	padding: 2px;
+	margin-left: auto;
+  margin-right: auto;
+
+}
+
+img#wave {
+	height: 250px;
+	width: 370px;
+}
+
+.intro {
+	position: absolute;
+	bottom: 0px;
+
+}
+
+
+div#footer {
+	max-width: 800px;
+	text-align: center;
+	position: relative;
+	padding: 2px;
+	margin-left: auto;
+  margin-right: auto;
+}
