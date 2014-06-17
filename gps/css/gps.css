@@ -1,0 +1,15 @@
+h1 {text-align: center; border-bottom: 1px solid black; } 
+
+.navigator p {float: left; margin-top: 20%;}
+
+.driver p {float: left; margin-top: 20%;}
+
+.navigator img {width: 40%; margin-left: 20%;}
+
+.driver img {width: 40%; margin-left: 40%;}
+
+.links {text-align: center;margin-top: 15%;}
+
+.links a:hover {color: black;}
+
+.links a:visited {color: green;}
