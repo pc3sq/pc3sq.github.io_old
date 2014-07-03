@@ -1,52 +1,57 @@
-@media only screen and (max-device-width: 600px) {
+@media screen and (max-width: 450px) {
 
 	html {
-		background-color: green;
+		background-color: #FFFFFF;
+
 	}
 
-	body { 
-		max-width: 60em;
-		margin: 0 auto;
-		background-color: purple;
-		font-family: helvetica;
-		background-color: black; 
+	body {
+		font-size: 10px;
+	}
+
+	header .logo h1 a {
+
+	}
+
+	header .logo .elefant {
+		height: 25%;
+		width: 25%;
+		float: left;
 	}
 	
 }
 
-@media screen {
+
+
+@media screen and (min-width: 451px) {
 
 	html {
-		background-color: white;
+		background-color: #FFFFFF;
+		margin: 20px 0px;
 	}
 
 	body {
 		max-width: 60em;
-		margin: 0 auto;
-		/*background-color: #F0F8FF;*/
-		background-color: black;
-		font-family: helvetica;
-		padding: 1em;
 	}
 
-	h1 {
-		color: black;
-		text-decoration: italic;
+
+	header .logo .elefant {
+		height: 50%;
+		width: 50%;
+		float: left;
 	}
 
-	header .logo h1 a {
-		color: white;
-		text-decoration: none;
-	}
+
 
 	a {
 		text-decoration: none;
 		font-family: helvetica;
 		font-size: 0.875em;
+		color: black;
 	}
 
 	a:hover {
-		font-size: 1.25em;
+		font-size: 100%;
 		color: red;
 		text-decoration: bold;
 	}
@@ -61,7 +66,7 @@
 		text-align:center;
 		max-width: 31.25em;
 		margin-left: auto;
-	  margin-right: auto;
+	 	margin-right: auto;
 	}
 
 	span#wave {
@@ -111,23 +116,47 @@
 		width: 23.125em;
 	}
 
-	.intro {
-		position: absolute;
-		bottom: 0em;
-
-	}
 
 
-	footer {
-		max-width: 50em;
-		text-align: center;
-		position: relative;
-		padding: 0.125em;
-		margin-left: auto;
-	  margin-right: auto;
-	}
+
+
 
 
 
 }
 
+
+
+body {
+	margin: 0px auto;
+	padding: 1em;
+	font-family: helvetica;
+}
+
+
+header .logo h1 a {
+	color: violet;
+	text-decoration: none;
+
+}
+
+
+.intro {
+	position: absolute;
+	bottom: 0em;
+
+}
+
+header .logo h1 {
+	color: purple;
+	text-decoration: italic;
+}
+
+footer {
+	max-width: 20em;
+	text-align: center;
+	position: relative;
+	padding: 0.125em;
+	margin: 0em auto;
+ 	border-top: 1px solid green;
+}
