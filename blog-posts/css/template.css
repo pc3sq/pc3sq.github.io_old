@@ -1,103 +1,133 @@
-body {
-	background-color: #F0F8FF;
-	font-family: helvetica;
+@media only screen and (max-device-width: 600px) {
+
+	html {
+		background-color: green;
+	}
+
+	body { 
+		max-width: 60em;
+		margin: 0 auto;
+		background-color: purple;
+		font-family: helvetica;
+		background-color: black; 
+	}
+	
+}
+
+@media screen {
+
+	html {
+		background-color: white;
+	}
+
+	body {
+		max-width: 60em;
+		margin: 0 auto;
+		/*background-color: #F0F8FF;*/
+		background-color: black;
+		font-family: helvetica;
+		padding: 1em;
+	}
+
+	h1 {
+		color: black;
+		text-decoration: italic;
+	}
+
+	header .logo h1 a {
+		color: white;
+		text-decoration: none;
+	}
+
+	a {
+		text-decoration: none;
+		font-family: helvetica;
+		font-size: 0.875em;
+	}
+
+	a:hover {
+		font-size: 1.25em;
+		color: red;
+		text-decoration: bold;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+
+
+	header {
+		text-align:center;
+		max-width: 31.25em;
+		margin-left: auto;
+	  margin-right: auto;
+	}
+
+	span#wave {
+		font-style: italic;
+	}
+
+	div.entries {
+
+		text-align: center;
+		max-width: 25em;
+		margin-left: auto;
+	  margin-right: auto;
+
+	}
+
+	div.entries a {
+		color: green;
+	}
+
+	div.home {
+
+		text-align: center;
+		max-width: 25em;
+		margin-left: auto;
+	  margin-right: auto;
+
+	}
+
+	div.home a {
+		color: green;
+	}
+
+
+	div.content {
+		font-style: italic;
+		max-width: 37.5em;
+		text-align: center;
+		position: relative;
+		padding: 0.125em;
+		margin-left: auto;
+	  	margin-right: auto;
+
+	}
+
+	img#wave {
+		height: 15.625em;
+		width: 23.125em;
+	}
+
+	.intro {
+		position: absolute;
+		bottom: 0em;
+
+	}
+
+
+	footer {
+		max-width: 50em;
+		text-align: center;
+		position: relative;
+		padding: 0.125em;
+		margin-left: auto;
+	  margin-right: auto;
+	}
+
+
 
 }
 
-h1 {
-	color: black;
-	text-decoration: italic;
-}
-
-a {
-	text-decoration: none;
-	font-family: helvetica;
-	font-size: 14px;
-}
-
-a:hover {
-	font-size: 20px;
-	color: red;
-	text-decoration: bold;
-}
-
-.clear {
-	clear: both;
-}
-
-div.wrapper {
-	max-width: 960px;
-	margin-left: auto;
-  margin-right: auto;
-
-}
-
-div.header {
-	text-align:center;
-	max-width: 500px;
-	margin-left: auto;
-  margin-right: auto;
-}
-
-span#wave {
-	font-style: italic;
-}
-
-div.entries {
-
-	text-align: center;
-	max-width: 400px;
-	margin-left: auto;
-  margin-right: auto;
-
-}
-
-div.entries a {
-	color:green;
-}
-
-div.home {
-
-	text-align: center;
-	max-width: 400px;
-	margin-left: auto;
-  margin-right: auto;
-
-}
-
-div.home a {
-	color:green;
-}
-
-
-div.content {
-	font-style: italic;
-	max-width: 600px;
-	text-align: center;
-	position: relative;
-	padding: 2px;
-	margin-left: auto;
-  margin-right: auto;
-
-}
-
-img#wave {
-	height: 250px;
-	width: 370px;
-}
-
-.intro {
-	position: absolute;
-	bottom: 0px;
-
-}
-
-
-div#footer {
-	max-width: 800px;
-	text-align: center;
-	position: relative;
-	padding: 2px;
-	margin-left: auto;
-  margin-right: auto;
-}
