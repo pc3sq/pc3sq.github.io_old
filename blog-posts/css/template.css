@@ -2,21 +2,16 @@
 
 	html {
 		background-color: #FFFFFF;
+		font-size: 1em;
 
 	}
 
 	body {
-		font-size: 10px;
+		max-width: 100%;
 	}
 
-	header .logo h1 a {
-
-	}
-
-	header .logo .elefant {
-		height: 25%;
-		width: 25%;
-		float: left;
+	header img.elefant {
+		display: none;
 	}
 	
 }
@@ -35,35 +30,15 @@
 	}
 
 
-	header .logo .elefant {
+	header .elefant {
 		height: 50%;
 		width: 50%;
 		float: left;
 	}
 
 
-
-	a {
-		text-decoration: none;
-		font-family: helvetica;
-		font-size: 0.875em;
-		color: black;
-	}
-
-	a:hover {
-		font-size: 100%;
-		color: red;
-		text-decoration: bold;
-	}
-
-	.clear {
-		clear: both;
-	}
-
-
-
 	header {
-		text-align:center;
+		text-align: center;
 		max-width: 31.25em;
 		margin-left: auto;
 	 	margin-right: auto;
@@ -117,6 +92,10 @@
 	}
 
 
+/*	footer div.footerlinks {
+		float: left;
+	}*/
+
 
 
 
@@ -125,7 +104,7 @@
 
 }
 
-
+/*Overall*/
 
 body {
 	margin: 0px auto;
@@ -133,30 +112,81 @@ body {
 	font-family: helvetica;
 }
 
+.clear {
+	clear: both;
+}
 
-header .logo h1 a {
-	color: violet;
+a {
 	text-decoration: none;
+}
 
+a:hover {
+	color: red;
+	text-decoration: bold;
+}
+
+a:visited {
+	color: black;
 }
 
 
-.intro {
-	position: absolute;
-	bottom: 0em;
+/*Header*/
+
+header .intro {
+	/*float: right;*/
+	text-align: center;
+/*	border: 1px dashed black;*/
+}
+
+header .intro h1 a {
+	color: violet;
+}
+
+
+header .intro nav {
+	/*	border: 1px dashed pink;*/
+}
+
+header nav div  {
+	max-width: 100%;
+	margin: 0.5em;
 
 }
 
-header .logo h1 {
-	color: purple;
-	text-decoration: italic;
+header nav {
+	font-size: 1.5em;
 }
+
+header nav a:hover {
+	font-size: 1.1em;
+	color: red;
+}
+
+footer a {
+	margin-right: 1.5em;
+}
+
+header nav .navlinks {
+	display: none;
+	font-size: 0.5em;
+	margin-bottom: 1em;
+}
+
+
+
+/* Footer */
 
 footer {
-	max-width: 20em;
+	border-top: 1px dashed black;
+	padding-top: 0.25em;
+	max-width: 30em;
 	text-align: center;
-	position: relative;
-	padding: 0.125em;
 	margin: 0em auto;
- 	border-top: 1px solid green;
 }
+
+footer a {
+
+	font-size: 0.900em;
+}
+
+
