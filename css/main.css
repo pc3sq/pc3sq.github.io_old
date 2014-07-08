@@ -92,14 +92,6 @@
 	}
 
 
-/*	footer div.footerlinks {
-		float: left;
-	}*/
-
-
-
-
-
 
 
 }
@@ -173,6 +165,13 @@ header nav .navlinks {
 }
 
 
+/* Section */
+
+section {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
 
 /* Footer */
 
@@ -188,5 +187,3 @@ footer a {
 
 	font-size: 0.900em;
 }
-
-
