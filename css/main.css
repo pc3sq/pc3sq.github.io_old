@@ -88,10 +88,6 @@ a:hover {
 	text-decoration: bold;
 }
 
-a:visited {
-	color: black;
-}
-
 
 /*Header*/
 
@@ -125,9 +121,7 @@ header nav a:hover {
 	color: red;
 }
 
-footer a {
-	margin-right: 1.5em;
-}
+
 
 header nav .navlinks {
 	display: none;
@@ -156,6 +150,6 @@ footer {
 }
 
 footer a {
-
+	margin-right: 1.5em;
 	font-size: 0.900em;
 }
