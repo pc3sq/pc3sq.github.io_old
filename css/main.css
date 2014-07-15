@@ -9,10 +9,6 @@
 	body {
 		max-width: 100%;
 	}
-
-	header img.elefant {
-		display: none;
-	}
 	
 }
 
@@ -26,13 +22,6 @@
 
 	body {
 		max-width: 60em;
-	}
-
-
-	header .elefant {
-		height: 50%;
-		width: 50%;
-		float: left;
 	}
 
 
@@ -117,6 +106,12 @@ header nav .navlinks {
 	margin-bottom: 1em;
 }
 
+pre {
+	background-color: lightgreen;
+	padding: 2px 4px 2px 4px;
+	word-wrap: break-word;
+	
+}
 
 /* Section */
 
@@ -125,6 +120,7 @@ section {
 	margin: 0 auto;
 	font-size: 1em;
 }
+
 
 
 /* Footer */
