@@ -95,7 +95,7 @@ header nav {
 
 
 header nav a:hover {
-	font-size: 1.1em;
+	font-size: 1.6em;
 	color: red;
 }
 
@@ -103,7 +103,7 @@ header nav a:hover {
 
 header nav .navlinks {
 	display: none;
-	font-size: 0.7em;
+	font-size: 1.5em;
 	margin-bottom: 1em;
 }
 
