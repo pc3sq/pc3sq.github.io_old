@@ -18,4 +18,8 @@ $(document).ready(function(){
 	  $("#otherlinks").slideToggle();
 	});
 
+	$( "header" ).load( "../header.html" ); //includes header
+
 });
+
+
