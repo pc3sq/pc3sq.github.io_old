@@ -8,7 +8,6 @@ $(document).ready(function(){
 
 	$("#techblogs").click( function() {
 	  $("#techbloglinks").slideToggle();
-	});
 
 	$("#culturalblogs").click( function() {
 	  $("#culturalbloglinks").slideToggle();
@@ -19,10 +18,8 @@ $(document).ready(function(){
 	});
 
 	$("#others").click( function() {
-	  $("#otherlinks").slideToggle();
+	  $("#otherlinks").slideToggle();  
 	});
-
-
 
 });
 
