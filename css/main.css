@@ -93,8 +93,12 @@ header nav {
 	font-size: 1em;
 }
 
+header nav a {
+	font-size: 1.5em
+}
+
 header nav a:hover {
-	font-size: 1.1em;
+	font-size: 1.6em;
 	color: red;
 }
 
