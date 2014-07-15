@@ -2,6 +2,10 @@
 
 $(document).ready(function(){
 
+	$( "header" ).load( "../header.html" ); //includes header
+
+	$("footer").load("../footer.html"); //includes footer
+
 	$("#techblogs").click( function() {
 	  $("#techbloglinks").slideToggle();
 	});
@@ -18,9 +22,7 @@ $(document).ready(function(){
 	  $("#otherlinks").slideToggle();
 	});
 
-	$( "header" ).load( "../header.html" ); //includes header
 
-	$("footer").load("../footer.html"); //includes footer
 
 });
 
