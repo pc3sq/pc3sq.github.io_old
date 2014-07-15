@@ -8,6 +8,7 @@ $(document).ready(function(){
 
 	$("#techblogs").click( function() {
 	  $("#techbloglinks").slideToggle();
+	 });
 
 	$("#culturalblogs").click( function() {
 	  $("#culturalbloglinks").slideToggle();
