@@ -74,10 +74,9 @@ header .intro {
 /*	border: 1px dashed black;*/
 }
 
-header .intro h1 a {
+header .intro h3 a {
 	color: black;
 }
-
 
 header .intro nav {
 	/*	border: 1px dashed pink;*/
