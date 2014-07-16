@@ -1,10 +1,6 @@
 @media screen and (max-width: 450px) {
 
-	html {
-		background-color: #FFFFFF;
-		font-size: 1em;
 
-	}
 
 	body {
 		max-width: 100%;
@@ -15,10 +11,7 @@
 
 @media screen and (min-width: 451px) {
 
-	html {
-		background-color: #FFFFFF;
-		margin: 20px 0px;
-	}
+
 
 	body {
 		max-width: 60em;
@@ -38,7 +31,14 @@
 
 }
 
+
+
 /*Overall*/
+
+html {
+	background-color: #FFFFFF;
+	
+}
 
 body {
 	margin: 0px auto;
@@ -67,6 +67,8 @@ a:hover {
 
 
 /*Header*/
+
+
 
 header .intro {
 	/*float: right;*/
