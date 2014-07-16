@@ -5,7 +5,15 @@
 	body {
 		max-width: 100%;
 	}
-	
+
+	header nav {
+		font-size: 2em;
+	}
+
+	header nav .navlinks {
+		font-size: 2em;
+	}
+
 	img#fistbump {
 		width: 100%;
 	}
@@ -29,12 +37,24 @@
 	 	margin-right: auto;
 	}
 
+	header nav .navlinks {
+		font-size: 1em;
+	}
+
+	header nav {
+		font-size: 1em;
+	}
+
 	span#wave {
 		font-style: italic;
 	}
 
 	img#fistbump {
 		width: 50%;
+	}
+
+	footer a {
+		font-size: 2em;
 	}
 
 }
@@ -75,30 +95,17 @@ a:hover {
 
 /*Header*/
 
-
-
 header .intro {
-	/*float: right;*/
 	text-align: center;
-/*	border: 1px dashed black;*/
 }
 
 header .intro h3 a {
 	color: black;
 }
 
-header .intro nav {
-	/*	border: 1px dashed pink;*/
-}
-
 header nav div  {
 	max-width: 100%;
 	margin: 0.5em;
-
-}
-
-header nav {
-	font-size: 1em;
 }
 
 
@@ -107,11 +114,8 @@ header nav a:hover {
 	color: red;
 }
 
-
-
 header nav .navlinks {
 	display: none;
-	font-size: 1em;
 	margin-bottom: 1em;
 }
 
@@ -137,14 +141,13 @@ section {
 footer {
 	border-top: 1px dashed black;
 	padding-top: 0.25em;
-	/*max-width: 30em;*/
+	max-width: 30em;
 	text-align: center;
 	margin: 0em auto;
 }
 
 footer a {
 	margin-right: 1.5em;
-	font-size: 0.900em;
 }
 
 
