@@ -137,7 +137,7 @@ section {
 footer {
 	border-top: 1px dashed black;
 	padding-top: 0.25em;
-	max-width: 30em;
+	/*max-width: 30em;*/
 	text-align: center;
 	margin: 0em auto;
 }
